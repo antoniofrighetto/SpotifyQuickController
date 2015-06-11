@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8C898831B296A1700D422B6 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C898821B296A1700D422B6 /* AppleScriptObjC.framework */; };
+		D8C898881B296A1700D422B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C898871B296A1700D422B6 /* main.m */; };
+		D8C8988A1B296A1700D422B6 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = D8C898891B296A1700D422B6 /* AppDelegate.applescript */; };
+		D8C8988C1B296A1700D422B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8C8988B1B296A1700D422B6 /* Images.xcassets */; };
+		D8C8988F1B296A1700D422B6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8C8988D1B296A1700D422B6 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D8C8987F1B296A1700D422B6 /* spotifyController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spotifyController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C898821B296A1700D422B6 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		D8C898861B296A1700D422B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8C898871B296A1700D422B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8C898891B296A1700D422B6 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		D8C8988B1B296A1700D422B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8C8988E1B296A1700D422B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8C8987C1B296A1700D422B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C898831B296A1700D422B6 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8C898761B296A1700D422B6 = {
+			isa = PBXGroup;
+			children = (
+				D8C898841B296A1700D422B6 /* spotifyController */,
+				D8C898811B296A1700D422B6 /* Frameworks */,
+				D8C898801B296A1700D422B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8C898801B296A1700D422B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8C8987F1B296A1700D422B6 /* spotifyController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8C898811B296A1700D422B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8C898821B296A1700D422B6 /* AppleScriptObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8C898841B296A1700D422B6 /* spotifyController */ = {
+			isa = PBXGroup;
+			children = (
+				D8C898891B296A1700D422B6 /* AppDelegate.applescript */,
+				D8C8988B1B296A1700D422B6 /* Images.xcassets */,
+				D8C8988D1B296A1700D422B6 /* MainMenu.xib */,
+				D8C898851B296A1700D422B6 /* Supporting Files */,
+			);
+			path = spotifyController;
+			sourceTree = "<group>";
+		};
+		D8C898851B296A1700D422B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8C898861B296A1700D422B6 /* Info.plist */,
+				D8C898871B296A1700D422B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8C8987E1B296A1700D422B6 /* spotifyController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8C898921B296A1700D422B6 /* Build configuration list for PBXNativeTarget "spotifyController" */;
+			buildPhases = (
+				D8C8987B1B296A1700D422B6 /* Sources */,
+				D8C8987C1B296A1700D422B6 /* Frameworks */,
+				D8C8987D1B296A1700D422B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spotifyController;
+			productName = spotifyController;
+			productReference = D8C8987F1B296A1700D422B6 /* spotifyController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8C898771B296A1700D422B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Antonio Frighetto";
+				TargetAttributes = {
+					D8C8987E1B296A1700D422B6 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = D8C8987A1B296A1700D422B6 /* Build configuration list for PBXProject "spotifyController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8C898761B296A1700D422B6;
+			productRefGroup = D8C898801B296A1700D422B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8C8987E1B296A1700D422B6 /* spotifyController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8C8987D1B296A1700D422B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C8988C1B296A1700D422B6 /* Images.xcassets in Resources */,
+				D8C8988F1B296A1700D422B6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8C8987B1B296A1700D422B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C8988A1B296A1700D422B6 /* AppDelegate.applescript in Sources */,
+				D8C898881B296A1700D422B6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8C8988D1B296A1700D422B6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8C8988E1B296A1700D422B6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8C898901B296A1700D422B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D8C898911B296A1700D422B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D8C898931B296A1700D422B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = spotifyController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8C898941B296A1700D422B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = spotifyController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8C8987A1B296A1700D422B6 /* Build configuration list for PBXProject "spotifyController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8C898901B296A1700D422B6 /* Debug */,
+				D8C898911B296A1700D422B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8C898921B296A1700D422B6 /* Build configuration list for PBXNativeTarget "spotifyController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8C898931B296A1700D422B6 /* Debug */,
+				D8C898941B296A1700D422B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8C898771B296A1700D422B6 /* Project object */;
+}
