@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8AF372F1B5402BA003295F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AF372E1B5402BA003295F6 /* ViewController.m */; };
+		D8B5F8FA1B60F1D600B793D0 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = D87F95411B60313400BB54B9 /* FontAwesome.otf */; };
 		D8C898831B296A1700D422B6 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C898821B296A1700D422B6 /* AppleScriptObjC.framework */; };
 		D8C898881B296A1700D422B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C898871B296A1700D422B6 /* main.m */; };
 		D8C8988A1B296A1700D422B6 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = D8C898891B296A1700D422B6 /* AppDelegate.applescript */; };
@@ -15,7 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D8C8987F1B296A1700D422B6 /* spotifyController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spotifyController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87F95411B60313400BB54B9 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		D8AF372E1B5402BA003295F6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8AF37301B5402C4003295F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8C8987F1B296A1700D422B6 /* Spotify Quick Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spotify Quick Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C898821B296A1700D422B6 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
 		D8C898861B296A1700D422B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8C898871B296A1700D422B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -39,7 +44,7 @@
 		D8C898761B296A1700D422B6 = {
 			isa = PBXGroup;
 			children = (
-				D8C898841B296A1700D422B6 /* spotifyController */,
+				D8C898841B296A1700D422B6 /* Spotify Quick Controller */,
 				D8C898811B296A1700D422B6 /* Frameworks */,
 				D8C898801B296A1700D422B6 /* Products */,
 			);
@@ -48,7 +53,7 @@
 		D8C898801B296A1700D422B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8C8987F1B296A1700D422B6 /* spotifyController.app */,
+				D8C8987F1B296A1700D422B6 /* Spotify Quick Controller.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,20 +66,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D8C898841B296A1700D422B6 /* spotifyController */ = {
+		D8C898841B296A1700D422B6 /* Spotify Quick Controller */ = {
 			isa = PBXGroup;
 			children = (
 				D8C898891B296A1700D422B6 /* AppDelegate.applescript */,
 				D8C8988B1B296A1700D422B6 /* Images.xcassets */,
 				D8C8988D1B296A1700D422B6 /* MainMenu.xib */,
 				D8C898851B296A1700D422B6 /* Supporting Files */,
+				D8AF372E1B5402BA003295F6 /* ViewController.m */,
+				D8AF37301B5402C4003295F6 /* ViewController.h */,
 			);
+			name = "Spotify Quick Controller";
 			path = spotifyController;
 			sourceTree = "<group>";
 		};
 		D8C898851B296A1700D422B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D87F95411B60313400BB54B9 /* FontAwesome.otf */,
 				D8C898861B296A1700D422B6 /* Info.plist */,
 				D8C898871B296A1700D422B6 /* main.m */,
 			);
@@ -84,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D8C8987E1B296A1700D422B6 /* spotifyController */ = {
+		D8C8987E1B296A1700D422B6 /* Spotify Quick Controller */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8C898921B296A1700D422B6 /* Build configuration list for PBXNativeTarget "spotifyController" */;
+			buildConfigurationList = D8C898921B296A1700D422B6 /* Build configuration list for PBXNativeTarget "Spotify Quick Controller" */;
 			buildPhases = (
 				D8C8987B1B296A1700D422B6 /* Sources */,
 				D8C8987C1B296A1700D422B6 /* Frameworks */,
@@ -96,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = spotifyController;
+			name = "Spotify Quick Controller";
 			productName = spotifyController;
-			productReference = D8C8987F1B296A1700D422B6 /* spotifyController.app */;
+			productReference = D8C8987F1B296A1700D422B6 /* Spotify Quick Controller.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +124,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D8C8987A1B296A1700D422B6 /* Build configuration list for PBXProject "spotifyController" */;
+			buildConfigurationList = D8C8987A1B296A1700D422B6 /* Build configuration list for PBXProject "Spotify Quick Controller" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -128,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8C8987E1B296A1700D422B6 /* spotifyController */,
+				D8C8987E1B296A1700D422B6 /* Spotify Quick Controller */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +149,7 @@
 			files = (
 				D8C8988C1B296A1700D422B6 /* Images.xcassets in Resources */,
 				D8C8988F1B296A1700D422B6 /* MainMenu.xib in Resources */,
+				D8B5F8FA1B60F1D600B793D0 /* FontAwesome.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8AF372F1B5402BA003295F6 /* ViewController.m in Sources */,
 				D8C8988A1B296A1700D422B6 /* AppDelegate.applescript in Sources */,
 				D8C898881B296A1700D422B6 /* main.m in Sources */,
 			);
@@ -255,7 +266,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = spotifyController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Spotify Quick Controller";
 			};
 			name = Debug;
 		};
@@ -266,14 +277,14 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = spotifyController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Spotify Quick Controller";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8C8987A1B296A1700D422B6 /* Build configuration list for PBXProject "spotifyController" */ = {
+		D8C8987A1B296A1700D422B6 /* Build configuration list for PBXProject "Spotify Quick Controller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8C898901B296A1700D422B6 /* Debug */,
@@ -282,13 +293,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8C898921B296A1700D422B6 /* Build configuration list for PBXNativeTarget "spotifyController" */ = {
+		D8C898921B296A1700D422B6 /* Build configuration list for PBXNativeTarget "Spotify Quick Controller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8C898931B296A1700D422B6 /* Debug */,
 				D8C898941B296A1700D422B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
